@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VocabPro</title>
+    <link rel="stylesheet" href="css/auth-page.css">
+    <script type="module" src="js/auth.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <section class="login-signup">
+        <h2>Sign-up</h2>
+        <form>
+            <div class="error-message" id = "error-message"></div>
+            <div class="user-input">
+                <label for="name"> Name: </label>
+                <input id="name" type="text" maxlength="20" minlength="2">
+            </div>
+            <div class="user-input">
+                <label for="username"> Username: </label>
+                <input id="username" type="text" maxlength="20" minlength="2">
+            </div>
+            <div class="user-input">
+                <label for="email"> Email:</label>
+                <input id="email" type="email" maxlength="50">  
+            </div>
+
+            <div class="user-input">
+                <label for="password"> Password:</label>
+                <input id="password" type="password" maxlength="20">
+            </div>
+
+            <div class="user-input">
+                <label for="password"> Reenter Password:</label>
+                <input id="reenter-password" type="password" maxlength="20">
+            </div>
+            <button type="button" value="Sign-up" class="submit-button" id="signup-button">Sign up</button>
+        </form>
+        <p class="fine-print small">Already a user? Click <a href="login.html">here</a> to sign in.</p>
+    </section>
+</div>
+
+</body>
+
+</html>

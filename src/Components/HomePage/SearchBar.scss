@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+.searchInputs{
+    height:40px;
+    background-color: white;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap:0;
+    border: none;
+    border-radius:10px;
+    position: relative;
+    box-shadow: 5px;
+    width:100%;
+    margin:auto;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+.searchInputs input{
+    height:100%;
+    outline:none;
+    width:100%;
+    border:none;
+    margin:0;
+    padding-left:5px;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+
+
+.search{
+    width:500px;
+    margin:auto;
+    margin-bottom:40%;
+    position:relative;
+
+}
+
+.result{
+    margin-top:1px;
+    width:100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow:hidden;
+    overflow-y: auto;
+    max-height: 300px;
+    position:absolute;
+    height:300px;
+    background-color: white;
+
+}
+
+.resultMessage{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    color:rgb(31, 171, 171)
+}
+
+.result::-webkit-scrollbar{
+    display:none;
+}
+
+.searchIcon{
+    margin:auto;
+}
+
+.resultItem {
+    height: 40px;
+    padding-left: 29px; 
+    font-size: 16px;
+    list-style: none;
+    // padding-top: (40px - 16px)/2;
+    // padding-bottom: (40px - 16px)/2;
+    display:flex;
+    align-items: center;
+
+}
+
+.active{
+    background-color: rgb(17, 243, 243);
+}
+
+
+.resultItem:hover {
+    background-color: rgb(17, 243, 243);
+    cursor: pointer;
+}
+
+
+.resultList{
+    padding:0;
+    margin:0;
+}
+
+.hidden{
+    display:none
+}
+
+
+
+.wordContainer  {
+    display: flex;
+    justify-content: center; /* Centers the wordResultArea horizontally */
+    flex-direction:column;
+    width: 100%; /* Make sure it spans the full width of the parent */
+    position: absolute; /* This makes the container absolute */
+    height:auto;
+    min-height:100px;
+    max-height:300px;
+    margin-top:40px;
+    
+
+
+}
+
+.wordOptions{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:20px;
+
+}
+
+.wordButton {
+    width: 30%;
+    height: 40px;
+    background-color: #f0f0f0; /* Light gray background */
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners */
+    color: #333; /* Dark gray text */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.1s, box-shadow 0.1s; /* Smooth transition for background and box shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    outline: none; /* Remove default outline */
+}
+
+.wordButton:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+    transform: translateY(-5px); /* Slightly move the button down */
+    transition: transform 0.4s, box-shadow 0.4s; /* Adjust transition duration */
+
+
+}
+
+.wordButton:active {
+    background-color: #d0d0d0; /* Even darker gray on active */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Smaller shadow on active */
+    transform: translateY(2px); /* Slightly move the button down */
+    transition: transform 0.1s, box-shadow 0.1s; /* Adjust transition duration */
+}
+
+.cancel{
+    background-color: red;
+    color:white;
+}
+
+.cancel:hover{
+    background-color: red; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+    transform: translateY(-5px); /* Slightly move the button down */
+    transition: transform 0.4s, box-shadow 0.4s; /* Adjust transition duration */
+
+}
+
+.cancel:active {
+    background-color: red; /* Even darker gray on active */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Smaller shadow on active */
+    transform: translateY(2px); /* Slightly move the button down */
+    transition: transform 0.1s, box-shadow 0.1s; /* Adjust transition duration */
+
+
+}

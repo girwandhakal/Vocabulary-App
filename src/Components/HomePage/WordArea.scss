@@ -1,0 +1,66 @@
+.resultMessages {
+    color: rgb(31, 171, 171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.wordArea-resultMessage {
+    margin: 0; /* Add some margin to space out the messages */
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.link{
+    color:blue;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: black;
+
+}
+
+.link:active{
+    cursor:pointer;
+    color:darkblue;
+}
+
+
+
+.example{
+    margin : 0;
+    color:rgb(63, 176, 54);
+    font-style: italic;
+}
+.meaning{
+    margin: 0;
+}
+.wordItem{
+    margin:1rem;
+}
+
+.wordArea {
+    margin:0;
+    width:100%;
+    max-height:300px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 15px;
+    color: #333; /* Dark gray text */
+    background-color: lightcyan;
+    border:none;
+
+}
+
+.wordName{
+    font-weight:700;
+    font-size:2rem;
+    color:darkgreen;
+
+}

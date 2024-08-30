@@ -1,0 +1,41 @@
+
+
+html {
+    height:100%;
+    margin:0;
+    padding:0;
+
+}
+
+
+.page-container {
+    padding-top:50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    background-color: white; /* Dark gray background */
+}
+
+.component-container {
+    top: 136px;
+    width: 60%;
+    height: 80%;
+    border:none; /* Slightly lighter gray border */
+    border-radius: 5px;
+    background-color: white;/* Slightly lighter gray background */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#review-page-title{
+    color:black;
+    position:relative;
+}

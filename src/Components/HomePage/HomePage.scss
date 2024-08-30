@@ -1,0 +1,63 @@
+// *{
+//     box-sizing:border-box;
+
+// }
+
+// html {
+//     height:100%;
+//     margin:0;
+//     padding:0;
+
+// }
+
+
+.home-container{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    background-color: grey;
+}
+// .word-search{
+//     display:flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content:center;
+//     gap:10px;
+//     margin:auto;
+// }
+// #word-search{
+//     border-radius: 8px;
+//     height:2rem;
+//     width: 60%;
+//     font-size: 1rem;
+//     border:none;
+//     padding-left:5px;
+// }
+// #search-button{
+//     height:2rem;
+//     font-size:1rem;
+//     border:none;
+//     border-radius: 8px;
+// }
+
+// #search-button:hover{
+//     background-color:aqua;
+//     cursor:pointer;
+// }
+
+// #search-button:active{
+//     background-color:darkblue;
+//     color:white;
+//     cursor:pointer;
+// }
+
+
+// main{
+//     width:50%;
+// }
+

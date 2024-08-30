@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center; /* Center vertically */
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.login-signup {
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    width: 30%;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: auto;
+    padding:20px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+.login p {
+    color: #2F3640;
+    margin: 0 auto;
+}
+
+.username, .password {
+    margin: 5px;
+}
+
+.login h2 {
+    margin: 1rem auto 5px auto;
+    padding: 0;
+}
+
+.small {
+    font-size: 0.75rem;
+}
+
+.user-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+.user-input label {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.user-input input {
+    flex: 2;
+    height: 1.5rem;
+    font-size:1rem;
+    border-radius: 0px;
+    background-color: white;
+    border: none;
+    outline: none;
+    width:100%;
+
+}
+
+.user-input input:focus {
+    border: 2px solid blue;
+    border-radius: 4px;
+    outline: none;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 0px;
+    color: black;
+    width: 100%;
+}
+
+.login {
+    background-color: white;
+    color: black;
+}
+
+.submit-button {
+    background-color: #D4A373;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 40px;
+    margin: 1rem auto;
+}
+
+.submit-button:hover {
+    background-color: #E6BA96;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-button:active{
+    background-color: #DFA57F;
+    color: white;
+    cursor: pointer;
+}
+
+.fine-print {
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.container {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin:0;
+    height: 100%;
+    background: linear-gradient(270deg, #F5F5F5, #EDE0D4, #4A7C59);
+    background-size: 700% 700%;
+    animation: GradientBackground 15s ease infinite;
+    color: #333;
+    min-height: 100vh;
+}
+
+@keyframes GradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.error-message{
+    border: 1px solid black;
+    color: red;
+    font-size:1rem;
+    display:none;
+}
